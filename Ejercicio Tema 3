@@ -1,0 +1,32 @@
+//Primera parte
+
+public class Main {
+   public static void main(){
+    //Llamada a la función en el main y valores asignados
+    suma (4, 8, 7);
+   }   
+   //Función con tres parámetros que sean números que se suman entre sí
+   public static int suma (int a, int b, int c){
+    return a + b + c;
+   }
+}
+
+//Segunda parte
+
+public class Main {
+   public static void main(){
+   //Crear un objeto miCoche y añadirle una puerta 
+   Coche miCoche = new Coche();
+   miCoche.Addpuerta();
+   //Mostrar nº de puertas del objecto
+   System.out.println(miCoche.puertas);
+
+
+//Crear clase coche
+class Coche{
+  //Variable que almacena el numero de puertas
+  public int puertas=0;
+  //Funcion que incrementa el numero de puertas
+  public void Addpuerta(){
+      this. puertas++;
+  }
