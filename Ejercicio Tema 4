@@ -1,0 +1,92 @@
+// Condicional if
+public class Main {
+
+  public static void main(String[] args) {
+      int numeroIf = 0;
+  
+      if (numeroIf > 0) {
+      System.out.println("El numero es positivo.")
+      } elseif (numeroIf < 0) {
+      System.out.println("El numero es negativo.")
+      } else {
+      System.out.println("El numero es igual a cero.")
+      }
+  
+  }
+
+}
+
+//Bucle while
+public class Main {
+
+  public static void main(String[] args) {
+    numeroWhile = 3; 
+    
+    while (numeroWhile < 3) {
+    System.out.println(numeroWhile);   
+    numeroWhile = numeroWhile + 1;
+    }
+
+
+  }
+
+}  
+
+//Bucle do while 
+public class Main {
+
+  public static void main(String[] args) {
+    numeroWhile = 3; 
+    
+    do { 
+    System.out.println(numeroWhile);
+    numeroWhile = numeroWhile + 1;
+    } while (numeroWhile < 3);
+
+
+  }
+
+}  
+
+//Bucle for 
+public class Main {
+
+  public static void main(String[] args) {
+  
+    for (numeroFor = 0; numeroFor <=3; numeroFor++) { 
+    System.out.println(numeroFor);
+    } 
+
+
+  }
+
+}  
+//Switch case
+public class Main {
+
+  public static void main(String[] args) {
+    var estacion = "otoño";
+    
+    switch(estacion) {
+    case "otoño":
+    System.out.println("ES OTOÑO");
+    break;
+    case "invierno":
+    System.out.println("ES INVIERNO");
+    break;
+    case "primavera":
+    System.out.println("ES PRIMAVERA");
+    break;
+    case "verano":
+    System.out.println("ES VERANO");
+    break;
+    default:
+    System.out.println("NO ES UNA ESTACIÓN");
+    } 
+
+
+  }
+
+}  
+
+
